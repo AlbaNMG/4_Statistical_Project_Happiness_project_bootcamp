@@ -1,6 +1,8 @@
 # Statistical Project: Happiness
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
+## Overview
+
 I was interested in study the level of happiness of a sample and identify which areas of our life and which habits are most related to it.
 
 ## Project Description
