@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Life assessment Page</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+    <body style="background-color:PapayaWhip;"></body>
+
+    <p><strong><a href=http://127.0.0.1:5000>Go back to the Home Page</a></strong>  </p>
+    <h1> Welcome to the Life assessment! </h1>
+    <h2>Please, rate the following areas of your life from 1 to 10:</h2>
+    <p><FONT SIZE=3>(1 being the lowest and 10 the highest)</FONT></p>
+    <br>
+
+    <form method="POST">
+        <li><label> Quality of sleep </label>
+        <input type="text" name="Quality of sleep_form" id="parameter_sleep"></li>
+        <br>
+        <li><label> Job satisfaction </label>
+        <input type="text" name="Job satisfaction_form" id="parameter_job"></li>
+        <br>
+        <li><label> Financial situation </label>
+        <input type="text" name="Financial situation_form" id="parameter_financial"></li>
+        <br>
+        <li><label> Health </label>
+        <input type="text" name="Health_form" id="parameter_health"></li>
+        <br>
+        <li><label> Social life </label>
+        <input type="text" name="Social life_form" id="parameter_social"></li>
+        <br>
+        <li><label> Self-esteem </label>
+        <input type="text" name="Self-esteem_form" id="parameter_self"></li>
+        <br>
+        <li><label> Family/ friends relationship </label>
+        <input type="text" name="Family/ friends relationship_form" id="parameter_family"></li>
+        <br>
+        <li><label> Stress level </label>
+        <input type="text" name="Stress level_form" id="parameter_stress"></li>
+        <br>
+        <input type="submit" value="See the result!">
+    </form>
+    <br>    
+    
+    <h3>These areas of your life are <u>above</u> the average: <FONT SIZE=5>{{my_result4}}</font> </h3>
+    <h3>These areas of your life are <u>below</u> the average: <FONT SIZE=5>{{my_result5}}</font> </h3>
+        
+    <br> 
+    
+</body>
+</html>

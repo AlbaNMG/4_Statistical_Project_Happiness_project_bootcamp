@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Happiness Predictor Page</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+    <body style="background-color:Lavender;">
+    </body>
+    <p><strong><a href=http://127.0.0.1:5000>Go back to the Home Page</a></strong>  </p>
+    <h1> Welcome to the Happiness Predictor! </h1>
+    <h2>Would you like to know your level of happiness in the future? </h2>
+    <p>Complete the form below rating the categories from 1 to 10 (1 being the lowest and 10 the highest) according to your future expectations: </p>
+    <br>
+    <form method="POST">
+        <li><label> Future Age </label>
+        <input type="text" name="Age_prediction" id="parameter_age_prediction"></li>
+        <br>
+        <li><label> Future Quality of sleep </label>
+        <input type="text" name="Quality of sleep_prediction" id="parameter_sleep_prediction"></li>
+        <br>
+        <li><label> Future Job satisfaction </label>
+        <input type="text" name="Job satisfaction_prediction" id="parameter_job_prediction"></li>
+        <br>
+        <li><label> Future Financial situation </label>
+        <input type="text" name="Financial situation_prediction" id="parameter_financial_prediction"></li>
+        <br>
+        <li><label> Future Health </label>
+        <input type="text" name="Health_prediction" id="parameter_health_prediction"></li>
+        <br>
+        <li><label> Future Social life </label>
+        <input type="text" name="Social life_prediction" id="parameter_social_prediction"></li>
+        <br>
+        <li><label> Future Self-esteem </label>
+        <input type="text" name="Self-esteem_prediction" id="parameter_self_prediction"></li>
+        <br>
+        <li><label> Future Family/ friends relationship </label>
+        <input type="text" name="Family/ friends relationship_prediction" id="parameter_family_prediction"></li>
+        <br>
+        <li><label> Future Stress level </label>
+        <input type="text" name="Stress level_prediction" id="parameter_stress_prediction"></li>
+        <br>
+        <input type="submit" value="Predict my happiness!">
+    </form>
+
+    <h3>Your level of happiness in the future will be: <FONT SIZE=7>{{my_result2}}</font> </h3>
+          
+   
+</body>
+</html>
