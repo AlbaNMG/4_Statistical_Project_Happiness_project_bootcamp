@@ -14,4 +14,3 @@ Once you have your data, complete an analysis that answers your original questio
 
 You can enrich your limited dataset with information from richer sources that you can obtain trough any means you've learned before (e.g. you may web scrape the weights of car models if that is one of your observations).
 
-Like in the previous project, package your results with a product or service mindset. You will present your findings in a presentation (possibly supported by an interactive visualization or even a flask app) where you should evidence principles of dashboarding and storytelling.
